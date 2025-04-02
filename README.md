@@ -33,8 +33,11 @@
 ### Após essa implementação responda:
 
 - Na classe Corpo_Humano inclua a linha c1.massa = "2"; logo depois de instanciar o objeto c1. Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+Resposta: Ocorreu um erro, porque ele não consegue acessar a variável massa já que ela é private.
 - Na classe Corpo_Humano altere a linha private float Massa para public float Massa; Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+Resposta: o atributo fica público, então pode sofrer alterações em qualquer parte do código. Porém, pode haver problemas de sobreposição de valores
 - Na classe Corpo_Humano altere a linha public setVolume (float volume) para private setVolume (float volume).Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+Resposta: não poderei atualizar o valor do atributo volume em qualquer parte do código
 
 
 <b>Colocar essa informação no Readme do Git ou Em comentários de código na classe main </b>
